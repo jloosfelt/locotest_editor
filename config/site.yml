@@ -1,0 +1,25 @@
+site:
+  name: locotest_editor
+
+  locales: [fr, en]
+
+  seo_title: locotest_editor
+  meta_keywords: "some meta keywords"
+  meta_description: "some meta description"
+
+  pages:
+    - "index": # page path (the template can edited here app/views/pages/index.liquid)
+        title: "Accueil"
+        published: true
+        translations:
+          en:
+            title: "Homepage"
+    - "404":
+        title: "Page not found"
+    - "layout":
+        title: "Layout"
+        published: false
+        listed: false
+        translations:
+          en:
+            title: "Layout"
